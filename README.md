@@ -8,12 +8,8 @@ This repository contains the code for **CReport**, a crowdsourced anti-corruptio
 - `client` – React application created with Vite.
 
 ## Getting Started
-
-1. Copy `.env.example` to `.env` inside the `server` folder and provide values for the required environment variables. These include:
-   - `MONGO_URI`
-   - `JWT_SECRET`
-   - `AES_KEY`
-   The values should remain private and are **not** committed to version control.
+=======
+1. Copy `.env.example` to `.env` inside the `server` folder and provide values for `MONGO_URI`, `JWT_SECRET` and `AES_KEY`.
 2. From the `server` directory run:
    ```bash
    npm install
